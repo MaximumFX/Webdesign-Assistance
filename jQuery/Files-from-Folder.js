@@ -1,5 +1,5 @@
 var dir = 'URL';
-var fileextension='EXT';
+var fileextension = 'EXT';
 $.ajax({
 	url: dir,
 	success: function (data) {
