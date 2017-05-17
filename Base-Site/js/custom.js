@@ -1,3 +1,13 @@
+$(document).ready(function() {
+	$('body').addClass('loading');
+	$('div.loader').show();
+});
+
+$(window).load(function() {
+	$('body').removeClass('loading');
+	$('div.loader').fadeOut(1000);
+});
+
 $('a[href^=\'#\']').on('click', function(event) {
     var target = $(this.getAttribute('href'));
     if( target.length ) {
