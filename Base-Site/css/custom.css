@@ -83,25 +83,25 @@ hr {
 
 /* Loader */
 body.loading {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 div.loader {
-    position: fixed;
+	position: fixed;
 	left: 0;
 	top: 0;
 	width: 100%;
 	height: 100%;
 	background-color: #fff;
-    z-index: 1000;
+	z-index: 1000;
 }
 .svg.loader {
 	width: 200px;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
 }
 .svg.loader .rot {
 	animation: rot 1.5s linear infinite;
